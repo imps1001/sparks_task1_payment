@@ -1,0 +1,64 @@
+.nav-link::after {
+    position: absolute;
+    top: 48px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ffa366;
+    transition: width .3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(100%);
+  }
+  .nav-link { 
+    color: inherit;
+    padding: 1.1rem 0;
+    position: relative;
+  }
+  main {
+    padding-bottom: 1rem;
+  }
+  .navbar-dark{
+    background: #1e687b;
+}
+a :hover
+{
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.navbar-brand
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+a 
+{
+  color: white;
+}
+a:hover
+{
+  color: white;
+  text-decoration: none;
+}
+.footer{
+    color: white;
+    background-color: #3C8DAD;
+    height: 3rem;
+    text-align: center;
+    margin: 6rem 0 0 0;
+    }
+  
+.help{
+    text-align: center;
+    margin-top: 6rem;
+    }
+img{
+        width: 30%;
+    }
